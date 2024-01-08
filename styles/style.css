@@ -132,6 +132,13 @@
     left: 100px;
 }
 
+.mid-night-party-image{
+    width: 600px;
+    position: absolute;
+    top: 50px;
+    left:  780px;
+}
+
 .mid-night-party-text * {
     margin-bottom: 20px;
 }
@@ -176,6 +183,7 @@
     /* background-color: blue; */
     border-radius: 16px;
     position: relative;
+   
 }
 
 .new-park-hotel-text-area {
@@ -230,11 +238,12 @@
     margin-top: 100px;
     background: #FFF;
     margin-top: 100px;
+    
 }
 
 .coming-soon-chind {
     
-    width: 30%;
+    width: 32%;
    
 
 }
