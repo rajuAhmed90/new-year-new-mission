@@ -5,6 +5,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* header section style */
@@ -62,6 +63,7 @@
 .main-section {
     max-width: 1200px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .all-category {
@@ -132,11 +134,11 @@
     left: 100px;
 }
 
-.mid-night-party-image{
+.mid-night-party-image {
     width: 600px;
     position: absolute;
     top: 50px;
-    left:  780px;
+    left: 780px;
 }
 
 .mid-night-party-text * {
@@ -180,10 +182,9 @@
 .new-park-hotel-section {
     height: 450px;
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    /* background-color: blue; */
     border-radius: 16px;
     position: relative;
-   
+
 }
 
 .new-park-hotel-text-area {
@@ -238,13 +239,13 @@
     margin-top: 100px;
     background: #FFF;
     margin-top: 100px;
-    
+
 }
 
 .coming-soon-chind {
-    
+
     width: 32%;
-   
+
 
 }
 
@@ -311,10 +312,68 @@
     font-weight: 400;
     line-height: 32px;
     margin-bottom: 15px;
+
+}
+
+.new-year-small-image {
+    width: 140px;
+    height: 140px;
+}
+
+
+
+
+.our-portfolio-section {
+    margin-top: 100px;
+}
+
+.our-portfolio-section-text {
+    width: 700px;
+}
+
+.portfolio-para {
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 15px;
+
+}
+
+.portfolio-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.portfolio-small-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
     
 }
 
-.new-year-small-image{
-    width: 140px;
-    height: 140px;
+.portfolio-image-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.single-image {
+    width: 30%;
+    margin-bottom: 20px;
+
+}
+
+.single-image img {
+    width: 100%;
 }
