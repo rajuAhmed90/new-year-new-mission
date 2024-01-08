@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header section style */
+
+.header {
+    background-image: url('../images/new-year-banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 1200px;
+    border-radius: 16px;
+    margin: 50px auto;
+    position: relative;
+
+}
+
+.new-year-section {
+     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.header .new-year-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header .happy-para {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.header .happy-heading {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+
+}
+
+/* main section style */
