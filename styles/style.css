@@ -417,7 +417,6 @@
 .news-email {
     padding: 15px;
     width: 300px;
-    /* font-size: 15px; */
     border: none;
 }
 
@@ -457,6 +456,12 @@
 
 .contact {
     margin-bottom: 50px;
+}
+
+.contact-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .social-media-parent {
